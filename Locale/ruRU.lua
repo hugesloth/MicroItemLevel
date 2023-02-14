@@ -9,7 +9,7 @@
 --]]
 
 if (GetLocale() ~= "ruRU") then return end
-TACOTIP_LOCALE = {
+MICROITEMLEVEL_LOCALE = {
 ["Player"] = "Игрок",
 ["Pet"] = "Питомец",
 ["Target"] = "Цель",

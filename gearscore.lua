@@ -14,8 +14,8 @@ if (clientBuildMajor < 49 or clientBuildMajor > 51 or string.byte(clientVersionS
     return
 end
 
-assert(LibStub, "GirlsItemLevel requires LibStub")
-assert(LibStub:GetLibrary("LibClassicInspector", true), "GirlsItemLevel requires LibClassicInspector")
+assert(LibStub, "MicroItemLevel requires LibStub")
+assert(LibStub:GetLibrary("LibClassicInspector", true), "MicroItemLevel requires LibClassicInspector")
 
 local CI = LibStub("LibClassicInspector")
 
@@ -215,7 +215,7 @@ local function itemcacheCB(tbl, id)
         end
     end
     if (#tbl.items == 0) then
-        MiniItemLevel_GSCallback(tbl.guid)
+        MicroItemLevel_GSCallback(tbl.guid)
     end
 end
 

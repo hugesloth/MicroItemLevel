@@ -9,7 +9,7 @@
 --]]
 
 if (GetLocale() ~= "esES") then return end
-TACOTIP_LOCALE = {
+MICROITEMLEVEL_LOCALE = {
 ["Player"] = "Jugador",
 ["Pet"] = "Mascota",
 ["Target"] = "Objetivo",

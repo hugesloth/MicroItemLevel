@@ -9,7 +9,7 @@
 
 if (GetLocale() ~= "koKR") then return end
 
-TACOTIP_LOCALE = {
+MICROITEMLEVEL_LOCALE = {
 ["Player"] = "플레이어",
 ["Pet"] = "소환수",
 ["Target"] = "대상",
