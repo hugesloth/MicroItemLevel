@@ -1,5 +1,5 @@
 ## Interface: 11304
-## Version: 0.1
+## Version: 0.11
 ## Title: MicroItemLevel
 ## Notes: MicroItemLevel
 ## Author: murrm
